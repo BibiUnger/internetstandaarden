@@ -1,0 +1,102 @@
+body {
+    background-color: bisque;
+    display: flex; 
+    color: black;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0; 
+    font-family: ChildrenSans;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+
+@font-face {
+    font-family: 'Hey Comic';
+    src: url(/style/Fonts/hey_comic/Hey\ Comic.ttf);
+}
+
+@font-face {
+    font-family: 'ChildrenSans';
+    src: url(/style/Fonts/ChildrenSans.ttf);
+}
+
+@font-face {
+    font-family: chinrg;
+    src: url(/style/Fonts/chinrg__.ttf);
+}
+
+@font-face {
+    font-family: Candy Beans;
+    src: url(/style/Fonts/Candy\ Beans.otf);
+}
+
+
+h1, h2, h3 {
+    font-family: Hey Comic;
+    letter-spacing: 1;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: left;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 140, 0);
+    font-weight: bold;
+    border-bottom: 0.05em solid rgb(0, 0, 0);
+}
+
+main {
+    padding: 3em;
+    background-image: url(../images/achtergrond\ 1.jpeg);
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgb(255, 140, 0);
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    border-top: 0.1em solid rgb(0, 0, 0);
+}
+
+img, video {
+     max-width: 100%;
+     }
+
+.foto1 {
+    float: right;
+    margin: 1em;
+}
+
+img {
+    width: 800px; 
+    height: auto; 
+}
+
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    margin: 1em;
+}
+
+.bronnen {
+    display: flex;
+    flex-direction: column;
+}
